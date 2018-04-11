@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="@string/icon_profile" />
+        <item
+            android:id="@+id/nav_escape"
+            android:icon="@android:drawable/stat_sys_data_bluetooth"
+            android:title="@string/uscita_park" />
+        <item
+            android:id="@+id/nav_your_book"
+            android:icon="@drawable/ic_folder_shared_black_24dp"
+            android:title="@string/icon_your_book" />
+        <item
+            android:id="@+id/nav_findPark"
+            android:checked="true"
+            android:icon="@drawable/ic_location_on_black_24dp"
+            android:title="@string/icon_find_park" />
+        <item
+            android:id="@+id/nav_card"
+            android:icon="@drawable/ic_credit_card_black_24dp"
+            android:title="@string/icon_card" />
+        <item
+            android:id="@+id/nav_old_book"
+            android:icon="@drawable/ic_folder_shared_black_24dp"
+            android:title="@string/icon_your_old_book" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="@string/icon_logout" />
+    </group>
+</menu>

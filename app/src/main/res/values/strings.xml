@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Unicam Parking</string>
+    <string name="title_activity_login">Accedi</string>
+    <string name="title_activity_signUp">Registrati</string>
+    <string name="title_activity_gps">Gps Location</string>
+    <!-- Strings related to navigation bar-->
+    <string name="nav_account_title">Account</string>
+    <string name="nav_book_park_title">Prenota Parcheggio</string>
+    <string name="nav_assistance_title">Contatta Assistenza</string>
+    <string name="navigation_drawer_open">Apri</string>
+    <string name="navigation_drawer_close">Chiudi</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="btn_login">Login</string>
+    <string name="btn_return_login">Effettua il Login</string>
+    <string name="btn_credentials">" <u>Hai dimenticato la password?</u> "</string>
+    <string name="btn_to_signUp"> Registrati</string>
+    <string name="btn_to_gps"> GPS backdoor</string>
+    <string name="btn_to_map"> Google Maps backdoor</string>
+    <string name="btn_to_nav"> Navbar backdoor</string>
+    <!-- Strings related to signUp -->
+    <string name="prompt_pass_repeate_signUp">Ripeti nuova password</string>
+    <string name="btn_signUp">Registrati</string>
+    <string name="text_or"> Oppure</string>
+    <!-- Strings related to GPS -->
+    <string name="latitude">Latitudine</string>
+    <string name="longitude">Longitudine</string>
+    <string name="currentPosition">Prendi la posizione corrente</string>
+    <string name="userPosition">Vai a coordinate scelte</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_navitagion">Navitagiont_Activity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings related to image text -->
+    <string name="icon_profile">Profilo</string>
+    <string name="icon_find_park">Trova un parcheggio</string>
+    <string name="icon_your_book">Le tue prenotazioni</string>
+    <string name="icon_your_old_book">Prenotazioni pagate</string>
+    <string name="icon_settings">Impostazioni</string>
+    <string name="icon_logout">Logout</string>
+    <!-- String related to profile fragment-->
+    <string name="mail">mail</string>
+    <string name="denaro">Saldo:</string>
+    <string name="ricarica">Ricarica il conto</string>
+    <string name="profile_image">Immagine del profilo</string>
+    <!-- String related to profile fragment-->
+    <string name="your_book">Le tue prenotazioni</string>
+    <string name="provaPren">Parcheggio Copert Camerino tra le ore 15 e le 17</string>
+    <!-- String related to findyoutpark fragment-->
+    <string name="city">Cerca la città in cui vuoi parcheggio</string>
+    <string name="yourPosition">Cerca parcheggio dove ti trovi ora</string>
+    <!-- String related to settings fragment-->
+    <string name="changePassword">Cambia password</string>
+    <string name="changeMail">Cambia email</string>
+    <!-- String related to show book fragment-->
+    <string name="eraseBooking">Cancella questa prenotazione</string>
+    <string name="navBooking">Naviga verso il parcheggio</string>
+    <!-- String related to change password fragment-->
+    <string name="newPassword">Inserisci la nuova password</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="password_recovery1">Inserisci la tua email di registrazione</string>
+    <string name="password_recovery2">ti invieremo una nuova password</string>
+    <string name="icon_card">Dati pagamento</string>
+    <string name="posti_moto">Posti moto:</string>
+    <string-array name="optionsMenuItem2">
+        <item>Non avvisare</item>
+        <item>5 minuti</item>
+        <item>10 minuti</item>
+        <item>15 minuti</item>
+    </string-array>
+    <string-array name="optionsMenuItem1">
+        <item>Nessuno</item>
+        <item>10 minuti</item>
+        <item>15 minuti</item>
+        <item>20 minuti</item>
+    </string-array>
+    <integer-array name="optionsMenuItem1value">
+        <item>0</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+    </integer-array>
+    <integer-array name="optionsMenuItem2value">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+    </integer-array>
+    <string name="title_activity_impostazioni_avanzate">ImpostazioniAvanzate</string>
+    <string name="uscita_park">Esci dal parcheggio</string>
+    <string name="textBtnUscitaParcheggio">Invia codice uscita</string>
+    <string name="textBtnEntra">Invia codice ingresso</string>
+</resources>

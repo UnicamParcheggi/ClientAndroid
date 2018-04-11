@@ -1,0 +1,113 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/sfondo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.stach.app_test.Carta_di_credito">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textViewTitolo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:singleLine="true"
+            android:text="Modifica dati carta"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextNumeroCarta"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/roundedtextbox"
+            android:ems="10"
+            android:hint="Inserisci il numero della carta"
+            android:inputType="number"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:scrollbars="none|horizontal"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textColor="#1D1C1D"
+            android:textSize="17sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewTitolo" />
+
+        <EditText
+            android:id="@+id/editTextDataScadenza"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/roundedtextbox"
+            android:ems="10"
+            android:hint="Inserisci la data di scadenza"
+            android:inputType="date"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:scrollbars="none|horizontal"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textColor="#1D1C1D"
+            android:textSize="17sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextNumeroCarta" />
+
+        <EditText
+            android:id="@+id/editTextPin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/roundedtextbox"
+            android:ems="10"
+            android:hint="Inserisci il pin"
+            android:inputType="number"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:scrollbars="none|horizontal"
+            android:textAlignment="center"
+            android:textColor="#1D1C1D"
+            android:textSize="17sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextDataScadenza" />
+
+        <Button
+            android:id="@+id/buttonAggiornaCarta"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="76dp"
+            android:layout_marginStart="76dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/roundedbutton"
+            android:text="Aggiorna carta"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextPin" />
+
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

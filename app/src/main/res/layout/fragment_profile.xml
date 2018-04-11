@@ -1,0 +1,273 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sfondo"
+    tools:context="com.example.stach.app_test.ProfileFragment">
+
+    <!--Only for padding-->
+    <!-- linear for mail icon and mail text-->
+    <!--Only for padding-->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/Data_Nascita"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/blue_trasparente"
+            android:paddingBottom="10dp"
+            android:paddingEnd="0dp"
+            android:paddingStart="15dp"
+            android:paddingTop="10dp"
+            android:scrollbars="none|horizontal"
+            android:singleLine="true"
+            android:textAlignment="textStart"
+            android:textColor="#1D1C1D"
+            android:textIsSelectable="false"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/guidelineLabel"
+            app:layout_constraintTop_toBottomOf="@+id/Cognome" />
+
+        <TextView
+            android:id="@+id/Telefono"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/blue_trasparente"
+            android:paddingBottom="10dp"
+            android:paddingEnd="0dp"
+            android:paddingStart="15dp"
+            android:paddingTop="10dp"
+            android:scrollbars="none|horizontal"
+            android:singleLine="true"
+            android:textAlignment="textStart"
+            android:textColor="#1D1C1D"
+            android:textIsSelectable="false"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/guidelineLabel"
+            app:layout_constraintTop_toBottomOf="@+id/Data_Nascita" />
+
+        <TextView
+            android:id="@+id/Username"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/blue_trasparente"
+            android:paddingBottom="10dp"
+            android:paddingEnd="0dp"
+            android:paddingStart="15dp"
+            android:paddingTop="10dp"
+            android:scrollbars="none|horizontal"
+            android:singleLine="true"
+            android:textAlignment="textStart"
+            android:textColor="#1D1C1D"
+            android:textIsSelectable="false"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/guidelineLabel"
+            app:layout_constraintTop_toBottomOf="@+id/Telefono" />
+
+        <TextView
+            android:id="@+id/Email"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/blue_trasparente"
+            android:paddingBottom="10dp"
+            android:paddingEnd="0dp"
+            android:paddingStart="15dp"
+            android:paddingTop="10dp"
+            android:scrollbars="none|horizontal"
+            android:singleLine="true"
+            android:textAlignment="textStart"
+            android:textColor="#1D1C1D"
+            android:textIsSelectable="false"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/guidelineLabel"
+            app:layout_constraintTop_toBottomOf="@+id/Username" />
+
+        <TextView
+            android:id="@+id/Saldo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/blue_trasparente"
+            android:paddingBottom="10dp"
+            android:paddingEnd="0dp"
+            android:paddingStart="15dp"
+            android:paddingTop="10dp"
+            android:scrollbars="none|horizontal"
+            android:singleLine="true"
+            android:textAlignment="textStart"
+            android:textColor="#1D1C1D"
+            android:textIsSelectable="false"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/guidelineLabel"
+            app:layout_constraintTop_toBottomOf="@+id/Email" />
+
+        <TextView
+            android:id="@+id/Nome"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/blue_trasparente"
+            android:paddingBottom="10dp"
+            android:paddingEnd="0dp"
+            android:paddingStart="15dp"
+            android:paddingTop="10dp"
+            android:scrollbars="none|horizontal"
+            android:singleLine="true"
+            android:textAlignment="textStart"
+            android:textColor="#1D1C1D"
+            android:textIsSelectable="false"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/image_profile"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/Cognome"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/blue_trasparente"
+            android:paddingBottom="10dp"
+            android:paddingEnd="0dp"
+            android:paddingStart="15dp"
+            android:paddingTop="10dp"
+            android:scrollbars="none|horizontal"
+            android:textAlignment="textStart"
+            android:textColor="#1D1C1D"
+            android:textIsSelectable="false"
+            android:textSize="16sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/image_profile"
+            app:layout_constraintTop_toBottomOf="@+id/Nome" />
+
+        <ImageView
+            android:id="@+id/image_profile"
+            android:layout_width="97dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:background=" #E4DBC5"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toTopOf="@+id/Data_Nascita"
+            app:layout_constraintEnd_toStartOf="@+id/Nome"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/buttonCambiaCredenziali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundedbutton"
+            android:paddingBottom="15dp"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:paddingTop="15dp"
+            android:src="@mipmap/ic_keyboard_white"
+            android:text="Cambia Credenziali"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Saldo"
+            app:layout_constraintVertical_bias="0.39999998" />
+
+        <TextView
+            android:id="@+id/textViewdataNascita"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/blue_trasparente"
+            android:paddingBottom="10dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:paddingTop="10dp"
+            android:singleLine="true"
+            android:text="Data nascita:"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/Telefono"
+            app:layout_constraintEnd_toStartOf="@+id/guidelineLabel"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Cognome" />
+
+        <TextView
+            android:id="@+id/textViewTelefono"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/blue_trasparente"
+            android:paddingBottom="10dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:paddingTop="10dp"
+            android:text="Telefono:"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toStartOf="@+id/guidelineLabel"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewdataNascita" />
+
+        <TextView
+            android:id="@+id/textViewUsername"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/blue_trasparente"
+            android:paddingBottom="10dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:paddingTop="10dp"
+            android:text="Username:"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toStartOf="@+id/guidelineLabel"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewTelefono" />
+
+        <TextView
+            android:id="@+id/textViewEmail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/blue_trasparente"
+            android:paddingBottom="10dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:paddingTop="10dp"
+            android:text="Email:"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toStartOf="@+id/guidelineLabel"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewUsername" />
+
+        <TextView
+            android:id="@+id/textViewSaldo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@color/blue_trasparente"
+            android:paddingBottom="10dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:paddingTop="10dp"
+            android:text="Saldo:"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toStartOf="@+id/guidelineLabel"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewEmail" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guidelineLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="150dp" />
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.design.widget.CoordinatorLayout>
